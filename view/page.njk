@@ -1,0 +1,10 @@
+{% extends "base.njk" %}
+{% block mainbody %}
+  <div class="row">
+    <div class="col-md-4 mx-auto p-5 rounded" style="margin-top: 120px; background-color: rgba(0,0,0,0.05);">
+      <h3><small>用户名：</small>{{username}}</h3>
+      <p>其他信息：{{userinfo}}<p>
+      <p class="text-right"><a href="/logout">注销</a></p>
+    </div>
+  </div>
+{% endblock %}
